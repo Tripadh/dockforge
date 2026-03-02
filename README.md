@@ -275,33 +275,6 @@ docker-compose ps
 # Open http://localhost:8080 in your browser
 ```
 
-### Environment Variables
-
-Create a `.env` file in the project root:
-
-```env
-# MySQL Configuration
-MYSQL_ROOT_PASSWORD=rootpass
-MYSQL_DATABASE=dockforge
-MYSQL_USER=dockforge
-MYSQL_PASSWORD=securepass
-
-# Redis Configuration
-REDIS_HOST=redis
-REDIS_PORT=6379
-
-# Database Connection
-DB_HOST=mysql
-DB_PORT=3306
-
-# Backend Configuration
-PORT=3000
-NODE_ENV=development
-
-# Worker Configuration
-EXECUTION_TIMEOUT=10000
-```
-
 ### First-Time Setup
 
 ```bash
@@ -354,25 +327,6 @@ curl http://localhost:8080/api/result/abc123-uuid
 
 ---
 
-## 📸 Screenshots
-
-<!-- Placeholder for screenshots -->
-
-### Web Dashboard
-![Dashboard Screenshot](docs/images/dashboard.png)
-*Clean, intuitive code editor with language selection and real-time output display.*
-
-### Code Execution
-![Execution Screenshot](docs/images/execution.png)
-*Python code execution with stdout and stderr output panels.*
-
-### Architecture Visualization
-![Architecture Screenshot](docs/images/architecture-visual.png)
-*Docker container orchestration with service dependencies.*
-
-> 📌 **Note:** Replace placeholder paths with actual screenshots after capturing them.
-
----
 
 ## 📈 Scaling & Future Improvements
 
